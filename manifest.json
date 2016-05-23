@@ -6,7 +6,7 @@
   "homepage_url": "http://bibi.epub.link",
   "app": {
     "launch": {
-      "local_path": "./bib/i/index.html"
+      "local_path": "./bibi/bib/i/index.html"
     }
   },
   "applications": {

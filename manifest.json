@@ -1,0 +1,24 @@
+{
+  "name": "BiB/i",
+  "version": "2016.05.23",
+  "manifest_version": 2,
+  "description": "EPUB Viewer",
+  "homepage_url": "http://bibi.epub.link",
+  "app": {
+    "launch": {
+      "local_path": "./bib/i/index.html"
+    }
+  },
+  "applications": {
+    "gecko": {
+      "id": "KitaitiMakoto@gmail.com"
+    }
+  },
+  "browser_action": {
+    "default_title": "BiB/i"
+  },
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  }
+}
